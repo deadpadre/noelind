@@ -1,4 +1,4 @@
-package com.netcracker.klenin.noelind;
+package com.netcracker.noelind;
 
 public class Photo {
 	private Image image;

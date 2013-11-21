@@ -1,4 +1,4 @@
-package com.netcracker.klenin.noelind;
+package com.netcracker.noelind;
 
 public interface Filter {
 	public Image transform(Image image);

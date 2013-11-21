@@ -1,4 +1,4 @@
-package com.netcracker.klenin.noelind;
+package com.netcracker.noelind;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

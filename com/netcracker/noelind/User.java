@@ -1,4 +1,4 @@
-package com.netcracker.klenin.noelind;
+package com.netcracker.noelind;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -7,12 +7,12 @@ import java.util.List;
 public class User {
 	protected boolean sex;
 	protected String name, town;
-	protected Calendar birthdate;
+	protected Calendar birthday;
 	protected List <Post> listOfPosts = new ArrayList <Post>();
 	
 	
 	boolean hasBirthdate() {
-		return (birthdate != null);
+		return (birthday != null);
 	}
 	public String getName() {
 		return name;
@@ -26,11 +26,11 @@ public class User {
 	void setTown(String town) {
 		this.town = town;
 	}
-	public Calendar getBirthdate() {
-		return birthdate;
+	public Calendar getBirthday() {
+		return birthday;
 	}
-	void setBirthdate(Calendar birthdate) {
-		this.birthdate = birthdate;
+	void setBirthday(Calendar birthday) {
+		this.birthday = birthday;
 	}
 	public boolean getSex() {
 		return sex;
